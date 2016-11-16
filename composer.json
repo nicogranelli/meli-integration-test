@@ -1,5 +1,13 @@
 {
     "name": "nico/meli",
     "type": "project",
-    "require": {}
+    "require": {
+        "league/climate": "^3.2"
+    },
+    "require-dev": {
+        "behat/behat": "^3.2"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
 }
